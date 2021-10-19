@@ -1,0 +1,45 @@
+.mom{
+ background-color:rgba(253, 251, 251, 0.918);  
+ display: grid;
+ justify-content: center;
+}
+.pokodex{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-row-gap: 30px;
+    margin-top: 80px;
+    grid-column-gap: -200rem;
+}
+ p,h6{
+     text-align: center;
+ }
+ 
+.minpoke{
+    padding: 30px;
+    background: rgba(0,0,0,0.1);
+    display: grid;
+    justify-items: center;
+    border-radius:30px; 
+    opacity: 0.8;
+    width: 90%;
+    filter: grayscale(80%);
+    
+}
+.minpoke:hover{
+    filter:grayscale(0);
+}
+
+/* TABLET */
+@media only screen and (min-width: 600px) {
+    .pokodex{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 769px) {
+    .pokodex{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
