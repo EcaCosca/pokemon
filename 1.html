@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
      <link rel="stylesheet" href="style.css">
+     <!-- <link rel="stylesheet" href="card.css"> -->
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -31,7 +33,7 @@
   <div class="container-fluid">
     <form class="d-flex">
       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success" type="submit">Search</button>
+      <button class="btn btn-outline-success" onclick="searchPokemon(this)" type="submit">Search</button>
     </form>
   </div>
 </nav>
@@ -46,11 +48,16 @@
   </div> -->
  
  <!-- ------------------------------------------------------------------------- -->
-  <div class="mom">
+ <div id="mask" onclick="sayGoodbye()"></div>
+ <div class="mom">
    <div class="pokodex" id="poko">
 
    </div>
   </div>
+<!-- 
+  <div id="exampleModal">
+
+  </div> -->
   <!------------------------------onclike card---div flex------------------------------------------------------------------>
   <!-- <div class="cardmom">
     <!-- -------------------div1--transperece + blur---------------------------------------------- -->
