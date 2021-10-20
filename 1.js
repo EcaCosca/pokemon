@@ -36,7 +36,7 @@ const fetchPokemon = () => {
           
           //-------------------------enrique-card---------------------------
         
-          let pokodex = document.getElementById("poko")
+          // let pokodex = document.getElementById("poko")
           let inerdiv = document.createElement("div");
           let image = document.createElement("img");
           let title = document.createElement("h6");
